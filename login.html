@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Authentication</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-- heder -->
+<header>
+  <div class="header-container">
+      <a href="#" class="logo">
+          <i class="fas fa-lock"></i> Login Authentication
+      </a>
+  </div>
+
+  <nav>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+      </ul>
+  </nav>
+</header>
+
+  <div class="containeroflogin">
+    <h2 class="loginheading">Login</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <p id="message"></p>
+    <button type="submit"><a href="index.html">Home</a></button>
+  </div>
+
+   <!-- footer -->
+   <footer class="footer">
+
+
+    <div class="social-icons">
+        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>&copy; 2023 Your Website. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+
+ 
+</body>
+</html>
